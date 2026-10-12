@@ -22,7 +22,7 @@ const CONFIG = {
   precioBs: "50",
   whatsappNumero: "59170201606",
   whatsappMensaje:
-    "Hola Betty, ya realicé el pago del curso Metodología de la Investigación para Tutores de TFG y te comparto mi comprobante.",
+    "Hola Betty, ya realicé el pago del curso Metodología de la Investigación para Docentes y Futuros Tutores y te comparto mi comprobante.",
   correoContacto: "bmeneses772020@gmail.com",
   banco: "Banco Ganadero",
   titular: "Betty Meneses Ayllón",
@@ -42,12 +42,13 @@ const TEXT = "#29291F";
 const TEXT_SOFT = "#6b6b5f";
 
 const modules = [
-  "El rol del tutor de Trabajo Final de Grado",
-  "Del tema al problema de investigación",
-  "Objetivos, marco teórico y antecedentes",
-  "Diseño metodológico",
-  "Retroalimentación efectiva y seguimiento",
-  "Ética, integridad y evaluación de la defensa",
+  "Enfoques de investigación: de las visiones del mundo a las rutas",
+  "Del tema al problema, y del problema a los objetivos",
+  "Revisión de la literatura y marco teórico",
+  "Diseño de la investigación: del alcance al diseño",
+  "Población, muestra, instrumentos y rigor",
+  "Análisis de datos y reporte de resultados",
+  "Tutoría de tesis y proyectos de grado: retroalimentación, ética y evaluación",
 ];
 
 export default function Landing({ onUnlock }) {
@@ -74,7 +75,7 @@ export default function Landing({ onUnlock }) {
       <header className="ld-header">
         <BookOpen size={22} strokeWidth={2} />
         <div>
-          <div className="ld-brand">Tutores de TFG</div>
+          <div className="ld-brand">Metodología para docentes</div>
           <div className="ld-brand-sub">Curso de autogestión · Metodología de la Investigación</div>
         </div>
       </header>
@@ -82,10 +83,10 @@ export default function Landing({ onUnlock }) {
       {/* -------- Hero -------- */}
       <section className="ld-hero">
         <span className="ld-kicker">Curso corto y 100% a tu ritmo</span>
-        <h1>Acompaña con criterio cada etapa del Trabajo Final de Grado</h1>
+        <h1>Domina la metodología de la investigación y tutora tesis y proyectos de grado con criterio</h1>
         <p className="ld-hero-sub">
-          Seis módulos pensados para docentes tutores: del tema y el problema al diseño
-          metodológico, la retroalimentación, la ética y la defensa — con fuentes académicas verificables.
+          Siete módulos para docentes en formación metodológica y futuros tutores: enfoques, problema y
+          objetivos, revisión de la literatura, diseño, muestra, instrumentos y rigor, análisis y reporte, y tutoría — con fuentes académicas verificables.
         </p>
         <div className="ld-price-badge">
           <span className="ld-price-amount">${CONFIG.precioUsd} USD</span>
@@ -102,7 +103,7 @@ export default function Landing({ onUnlock }) {
         <div className="ld-grid-4">
           <div className="ld-feature">
             <FileText size={20} strokeWidth={2} />
-            <span>36 lecciones de lectura, práctica y video</span>
+            <span>45 lecciones de lectura, práctica y video</span>
           </div>
           <div className="ld-feature">
             <PlayCircle size={20} strokeWidth={2} />
@@ -114,7 +115,7 @@ export default function Landing({ onUnlock }) {
           </div>
           <div className="ld-feature">
             <ListChecks size={20} strokeWidth={2} />
-            <span>Listas de chequeo para revisar el trabajo de tu tesista</span>
+            <span>Listas de chequeo para revisar un proyecto propio o de tu tesista</span>
           </div>
           <div className="ld-feature">
             <PenSquare size={20} strokeWidth={2} />

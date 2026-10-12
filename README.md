@@ -1,33 +1,38 @@
-# Metodología de la Investigación para Tutores de TFG
+# Metodología de la Investigación para Docentes y Futuros Tutores de Tesis y Proyectos de Grado
 
-Curso de autogestión para docentes que tutoran Trabajos Finales de Grado, construido con React + Vite — misma plantilla que APA 7 y Expresión Escrita y Comprensión Lectora.
+Curso de autogestión para docentes en formación metodológica y futuros tutores de tesis y proyectos de grado, construido con React + Vite — misma plantilla que APA 7 y Expresión Escrita y Comprensión Lectora.
 
-Incluye 6 módulos y 36 lecciones (texto, video, cuestionarios, listas de chequeo y actividades prácticas con retroalimentación), referencias en APA 7 al final de las lecturas, página de ventas con QR/transferencia y candado de código de acceso.
+Incluye 7 módulos y 45 lecciones (texto, video, cuestionarios, listas de chequeo y actividades prácticas con retroalimentación), referencias en APA 7 al final de las lecturas, página de ventas con QR/transferencia y candado de código de acceso.
 
 ## Módulos
 
-1. El rol del tutor de Trabajo Final de Grado
-2. Del tema al problema de investigación
-3. Objetivos, marco teórico y antecedentes
-4. Diseño metodológico
-5. Retroalimentación efectiva y seguimiento
-6. Ética, integridad y evaluación de la defensa
+1. Enfoques de investigación: de las visiones del mundo a las rutas
+2. Del tema al problema, y del problema a los objetivos
+3. Revisión de la literatura y marco teórico
+4. Diseño de la investigación: del alcance al diseño
+5. Población, muestra, instrumentos y rigor
+6. Análisis de datos y reporte de resultados
+7. Tutoría de tesis y proyectos de grado: retroalimentación, ética y evaluación
+
+**Lógica de la secuencia:** de la idea a la ejecución (enfoque → qué investigar → qué se sabe → cómo responder → con quién y con qué → qué hacer con los datos → cómo orientar a otros).
 
 ## Antes de publicar: revisa estos datos
 
 - `src/Landing.jsx`, bloque `CONFIG`: mismos datos de pago y contacto que los otros cursos. Revísalos por si algo cambió.
 - `src/Gate.jsx`: el código de acceso por defecto es `TUTORES-OCTUBRE2026`. Puedes cambiarlo o agregar más códigos en `VALID_CODES`. El código es visible para quien sepa leer el código fuente del sitio; es un candado simple, no seguridad bancaria.
-- Los **videos** (lecciones `l1-3`, `l2-3`, `l3-3`, `l4-3`, `l5-3`, `l6-3`) están como campos para pegar un enlace de YouTube. Mientras no pegues uno, el estudiante verá el espacio vacío.
+- Los **videos** (lecciones `l1-4`, `l2-3`, `l3-3`, `l4-3`, `l5-4`, `l6-3` y `l7-4`) están como campos para pegar un enlace de YouTube. Mientras no pegues uno, el estudiante verá el espacio vacío.
 
 ## Sobre las fuentes (contenido confiable)
 
-Cada lectura cita sus fuentes en el texto y las lista en APA 7 al final de la lección. Se comprobaron en la web las fichas de las fuentes principales y, para los artículos de retroalimentación y rúbricas, el contenido que se les atribuye (Hattie y Timperley, 2007; Nicol y Macfarlane-Dick, 2006; Carless y Boud, 2018; Reddy y Andrade, 2010) (autores, año, revista, volumen, páginas y DOI, o editorial y edición en los libros). Aun así:
+Cada lectura cita sus fuentes en el texto y las lista en APA 7 al final. Los datos bibliográficos (autores, año, revista, volumen, páginas y DOI) de los artículos se comprobaron en las fichas de la revista, el editor o un repositorio institucional. Aun así:
 
-- Los **libros** (Hernández-Sampieri & Mendoza, 2018; Creswell & Creswell, 2018; Booth et al., 2016; Anderson & Krathwohl, 2001) se verificaron por catálogos de bibliotecas y librerías, no por la editorial. Si vas a citar páginas concretas, consulta el libro.
-- En *The craft of research* (Booth et al., 2016), los catálogos consultados solo listan a Booth y Colomb; la lista completa de autores de la 4.ª edición (Williams, Bizup, FitzGerald) no pude confirmarla en línea. Compárala con tu ejemplar.
-- Las referencias de **Merino Tejedor (2016)** no incluyen páginas finales porque no se pudieron comprobar.
-- Las ideas atribuidas a cada autor se mantienen al nivel que respaldan sus propios resúmenes y títulos. Es buena práctica que, antes de usar el curso con estudiantes de posgrado o en una publicación, revises las lecturas contra las fuentes originales.
-- El curso ofrece **criterios generales**: el reglamento de TFG de cada universidad prevalece sobre cualquier recomendación del curso.
+- Los **libros** (Hernández-Sampieri & Mendoza, 2018; Creswell & Creswell, 2018; Booth et al., 2016; Anderson & Krathwohl, 2001) se verificaron por catálogos de bibliotecas y librerías, no por la editorial, y lo que se les atribuye está al nivel de sus propios resúmenes y de su contenido conocido. Si vas a citar páginas concretas, consulta el libro.
+- Para los artículos, la comprobación en línea cubrió la ficha bibliográfica; el contenido atribuido corresponde al propósito declarado en el título y el resumen. Antes de usar el curso en una publicación, revisa las lecturas contra las fuentes originales.
+- En *The craft of research* (Booth et al., 2016) los catálogos consultados solo listan a Booth y Colomb; la lista completa de autores de la 4.ª edición no pudo confirmarse en línea. Compárala con tu ejemplar.
+- **Sin DOI en la referencia:** Messick (1995), Alvesson y Sandberg (2011) y Merino Tejedor (2016, sin páginas finales), porque no pudieron comprobarse en línea.
+- Etikan et al. (2016): la página del editor indica publicación en línea en 2015; se cita con el año del volumen 5(1), 2016. Verifícalo si lo vas a publicar.
+- Los principios del valor p (ASA), los tres movimientos de Booth et al., los ítems de COREQ y PRISMA 2020 y las fases del análisis temático se resumen según sus fuentes; compáralos con los documentos originales.
+- El curso ofrece **criterios generales**: el reglamento de trabajos de grado de cada universidad prevalece sobre cualquier recomendación del curso. Los criterios prácticos propios del curso se señalan como tales en el texto.
 
 ## Requisitos
 
@@ -49,7 +54,7 @@ npm run dev
 
 ## Actividades prácticas
 
-Las 6 actividades prácticas (una por módulo) se completan en línea, con guardado automático, y se descargan como PDF desde `public/actividad-practica-modulo1.pdf` a `public/actividad-practica-modulo6.pdf`.
+Las 7 actividades prácticas (una por módulo) se completan en línea, con guardado automático, y se descargan como PDF desde `public/actividad-practica-modulo1.pdf` a `public/actividad-practica-modulo7.pdf`.
 
 ### Retroalimentación: cómo sabe el estudiante si acertó
 
